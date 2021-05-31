@@ -1,0 +1,69 @@
+html {
+	font: 62.5% 'Helvetica';
+}
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.container { 
+  position: relative;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pie {
+	margin: 2rem;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  margin: 5rem 2rem;
+}
+
+.key {    
+    margin: 2rem;
+}
+
+.key-list {      
+  list-style-type: none;
+  font: 1.2rem/2.2 'Helvetica';
+}
+
+.key-list li {  
+  margin-left: -4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.key-list li .icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.key-list li .title {    
+  flex: 1;
+}
+
+.reader {
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+}
+
+
+
+
+
